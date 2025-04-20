@@ -1,11 +1,13 @@
-@import url('https://fonts.googleapis.com/css2?family=Martian+Mono:wght@100..800&family=Orbitron:wght@400..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Martian+Mono:wght@100..800&family=Orbitron:wght@400..900&family=Syne:wght@400..800&display=swap');
 @import 'tailwindcss';
 
 @theme {
-    --color-non-photo-blue: #9CEAEF;
-    --color-tahiti: #3ab7bf;
-    --color-bermuda: #78dcca;
-    --font-mono: "Martian Mono", monospace;
+	--color-non-photo-blue: #9ceaef;
+	--color-smoky-black: #0d0d0d;
+	--color-tiffany-blue: #07beb8;
+	--color-bermuda: #78dcca;
+	--font-display: 'Syne', sans-serif;
+	--font-mono: 'Martian Mono', monospace;
 }
 
 @plugin '@tailwindcss/typography';
