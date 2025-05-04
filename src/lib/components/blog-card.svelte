@@ -29,7 +29,10 @@
 </svelte:head>
 
 {#key post.slug}
-	<a class="card card-hover mx-4 mt-4 w-full max-w-4xl overflow-hidden" href={`/blog/${post.slug}`}>
+	<a
+		class="card card-hover bg-smoky-black mx-4 mt-4 w-full max-w-lg overflow-hidden rounded-md"
+		href={`/blog/${post.slug}`}
+	>
 		<header class="mb-4">
 			{#if post.image}
 				<img src={post.image} alt="blog banner" />
@@ -37,17 +40,17 @@
 		</header>
 
 		<div class="space-y-4 p-4">
-			<h3 class="h3" data-toc-ignore>{post.title}</h3>
+			<h3 class="h3 text-non-photo-blue font-mono" data-toc-ignore>{post.title}</h3>
 			<article>
 				<p>
 					{post.description}
 				</p>
 			</article>
 		</div>
-		<hr class="opacity-50" />
-		<footer class="flex items-center justify-start space-x-4 p-4">
+		<!-- <hr class="opacity-50" /> -->
+		<footer class="text-sky-blue flex items-center justify-start space-x-4 p-4">
 			<div class="flex flex-auto items-center justify-between">
-				<h6 class="font-bold" data-toc-ignore>By Jimmy McBride</h6>
+				<h6 class="font-bold" data-toc-ignore>Ignacio De La Madrid</h6>
 				<small>On {formatDate(post.date)}</small>
 			</div>
 		</footer>

@@ -1,7 +1,7 @@
 ---
-title: 'First Post'
-description: 'This is my first post!'
-date: '2024-09-24'
+title: 'Second Post'
+description: 'This is my second post!'
+date: '2024-10-24'
 categories:
   - blog
   - tutorial
