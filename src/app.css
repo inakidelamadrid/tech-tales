@@ -12,3 +12,34 @@
 }
 
 @plugin '@tailwindcss/typography';
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+	@apply text-tiffany-blue font-display;
+}
+
+.chip {
+	cursor: pointer;
+	white-space: nowrap;
+	padding: 0.375rem 0.75rem;
+	text-align: center;
+	font-size: 0.75rem;
+	line-height: 1rem;
+	border-radius: 0.25rem;
+	display: inline-flex;
+	align-items: center;
+	justify-content: center;
+	transition-property: all;
+	transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+	transition-duration: 0.15s;
+}
+
+.variant-filled-secondary {
+	--tw-bg-opacity: 1;
+	background-color: var(--color-tiffany-blue);
+	color: rgb(var(--on-secondary));
+}

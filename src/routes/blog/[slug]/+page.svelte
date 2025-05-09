@@ -30,12 +30,12 @@
 	<meta name="theme-color" content="#000000" media="(prefers-color-scheme: dark)" />
 </svelte:head>
 
-<article class="prose mx-auto mb-16 text-gray-100">
+<article class="prose mx-auto mt-8 mb-16 text-gray-100">
 	<!-- Title -->
-	<hgroup class="flex flex-col items-center">
-		<h1 class="text-2xl">{data.meta.title}</h1>
+	<hgroup class="flex flex-col">
+		<h1 class="text-tiffany-blue text-2xl">{data.meta.title}</h1>
 		<img src={data.meta.image} alt="blog banner" class="rounded-md" />
-		<p class="text-end text-sm">
+		<p class="text-sm">
 			Published at {formatDate(data.meta.date)}
 		</p>
 	</hgroup>
