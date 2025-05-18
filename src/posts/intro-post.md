@@ -1,7 +1,7 @@
 ---
-title: 'Welcome/Bienvenidos'
-description: 'The first planned, well thought blog post I write.'
-image: 'https://images.pexels.com/photos/5656674/pexels-photo-5656674.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1'
+title: 'Day Zero'
+description: 'Booting Up This Developer Blog (No Boring Introductions Allowed)'
+image: 'https://res.cloudinary.com/localia/image/upload/v1746830593/Blog/f1c08a11519321c1edd95e5e40f8f49b_uj7v25.png'
 date: '2025-04-20'
 categories:
   - welcome
@@ -10,49 +10,45 @@ categories:
 published: true
 ---
 
-## Contents
+Alright, let's skip the whole "Hi, my name is..." routine because we both know that's not why you're here. You want code insights, not my life story. Fair enough.
 
-## Intro
+## What This Blog Actually Is
 
-Many attempts have passed since I first tried to write my personal blog.
+This is a digital workshop where front-end meets back-end, where ideas get battle-tested, and where my ADHD-powered brain dumps the actually useful stuff I discover while building things
 
-Ruby on Rails, Sinatra, Django, Flask, Express ... I can't remember how many technologies I've tried to be honest.
+- Front-end: CSS (and its various frameworks), JavaScript, React, Angular
+- Back-end: Node.js, Nest.js, Python
+- Full-stack frameworks: Next.js, SvelteKit when I want to feel joy again
+- General tooling: Shell scripting and other command-line wizardry
+- Some devops stuff when I'm feeling particularly masochistic
 
-Nevertheless, I tell you a truth. This is the latest and final attempt.
+## Why Another Dev Blog? (The Honest Truth)
 
-Its origin is an execution of will-power, of a desire to organize my mind. It's based on the cumulative learning of focused work and, a commitment.
+Two reasons:
 
-I won't dissapoint. Neither you nor me. And I expect you find something useful in its lines.
+My brain is a chaotic vortex of programming knowledge that needs an organization system. This blog is that system.
+I'm fighting the same demons you probably are: ADHD-induced procrastination, disorganized learning patterns, and the constant feeling that I should be coding better, or worst, _I should be coding productively_.
 
-## Let's get started: What do I do?
+By writing here, I will force myself to truly understand what I'm sharing. _If I can't explain it clearly, I don't understand it well enough yet_. Simple as that.
 
-If you are not interested in knowing, you can go back to the list of blog posts.
+## How This Place Works
 
-But if you want to know more about me, either by curiosity or for business reasons: I do program web applications, mostly focused on the front end side.
+This isn't just another wall of text on the internet. I'll be including:
 
-Allow me mention to you the tech stack I'm confortable with
+- Interactive code samples that you can mess with
+- Real problems I've solved (and the messy journey to those solutions)
+- Concepts broken down without assuming you've memorized the entire documentation
 
-- Programming Languages
-  - Javascript
-  - Python
-- Backend Application Programming Frameworks
-  - Express JS
-  - Nest JS
-  - Django
-  - Flask
-- Front-end Application Programming Frameworks
-  - React
-  - Angular
-  - Svelte
-- Front-end Application Architectures
-  - Micro frontends (Single SPA)
+Sometimes we'll dive deep into a single CSS property. Other times we'll architect entire systems. The common thread? Everything here is something I actually needed to learn and use.
 
-## Man, what would be writing / reading about in this blog?
+## The Philosophy
 
-Well, the most important objective in building this blog is to learn web development technologies but we'll also be learning very important stuff for us web developers, to focus and learning to learn.
+Be curious, program knowing what you do, and do it well. Be a craftsman.
 
-And by doing how to write it in a **really approachable, easy and attractive manner**.
+That's it. No 10x developer nonsense. No "hustle harder" toxic productivity. Just the pursuit of understanding our craft well enough to build things we're proud of.
 
-You name it: styling, scripting, HTTP protocol; the options are many. But we'll make sure we focus in solving a problem and to analyze and digest completely the technologies we'll use to do it.
+## What's Next?
 
-It's a selfish exercise in that it will help me to better understand the topics and, at the same time selfless because I'll give my best to give you my **human** understanding (yes, you can also use AI these days, but it won't try to be funny as I will)
+I've got a content pipeline planned out, but I'm not going to list 20 future topics that'll never happen. Instead, I'll tell you what's coming next week: [add here post 2].
+If there's something specific in my tech stack you want me to cover, drop it in the comments. The ADHD part of me loves a good distraction if it's interesting enough.
+Now let's get building something worth talking about.

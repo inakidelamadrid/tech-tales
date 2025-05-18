@@ -1,32 +1,7 @@
 <script lang="ts">
-	import { description, title, url } from '$lib/config';
 	import { formatDate } from '$lib/utils.js';
 	export let post;
 </script>
-
-<svelte:head>
-	<title>{title}</title>
-
-	<meta name="description" content={description} />
-
-	<meta property="og:type" content="article" />
-	<meta property="og:url" content={`${url}/blog`} />
-	<meta property="og:title" content={title} />
-	<meta property="og:description" content={description} />
-	<meta property="og:site_name" content={title} />
-	<!-- <meta property="og:image" content="/blog-banner.webp" /> -->
-
-	<meta name="twitter:site" content="@McBride1105" />
-	<meta name="twitter:creator" content="@McBride1105" />
-	<meta name="twitter:title" content={title} />
-	<meta name="twitter:description" content={description} />
-	<meta name="twitter:card" content="summary_large_image" />
-	<meta name="twitter:image:src" content="/blog-banner.webp" />
-	<meta name="twitter:widgets:new-embed-design" content="on" />
-
-	<meta name="theme-color" content="#ffffff" media="(prefers-color-scheme: light)" />
-	<meta name="theme-color" content="#000000" media="(prefers-color-scheme: dark)" />
-</svelte:head>
 
 {#key post.slug}
 	<a
@@ -35,7 +10,7 @@
 	>
 		<header class="mb-4">
 			{#if post.image}
-				<img src={post.image} alt="blog banner" />
+				<img class="aspect-3/2 object-cover" src={post.image} alt="blog banner" />
 			{/if}
 		</header>
 

@@ -3,7 +3,7 @@
 	export let data;
 </script>
 
-<section class="relative h-[88vh]">
+<section class="relative h-full">
 	<ul class="flex items-center">
 		{#each [data.posts[0]] as post}
 			<BlogCard {post} />
