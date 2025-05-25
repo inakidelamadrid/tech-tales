@@ -1,11 +1,12 @@
 ---
 title: 'Third Post'
 description: 'This is my third post!'
-date: '2024-11-24'
+image: 'https://res.cloudinary.com/localia/image/upload/v1746830593/Blog/f1c08a11519321c1edd95e5e40f8f49b_uj7v25.png'
+date: '2025-11-24'
 categories:
   - blog
   - tutorial
-published: true
+published: false
 ---
 
 ## Contents

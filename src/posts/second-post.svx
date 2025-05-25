@@ -1,0 +1,46 @@
+---
+title: 'Building a custom component inside Markdown in SvelteKit:mdsvex'
+description: 'Tired of your markdown being boring? Want to add some custom components? Put down that ordinary markdown parser and pick up mdsvex!'
+image: 'https://res.cloudinary.com/localia/image/upload/v1746830593/Blog/f1c08a11519321c1edd95e5e40f8f49b_uj7v25.png'
+date: '2025-05-18'
+categories:
+  - blog
+  - tutorial
+published: true
+---
+
+<script context="module">
+  import Accordion from '$lib/components/accordion.svelte';
+  export { Accordion }
+</script>
+
+## Why mdsvex?
+Traditional markdown is perfect for simple content, but in today's world, readers expect more than just paragraphs and bullet points. They want interaction, animation, data visualization - things that make your content worth sticking around for. That's where mdsvex comes in, letting you seamlessly blend Svelte components into your markdown like they've always belonged there
+
+MDsveX is the unholy (but awesome) marriage of Markdown and Svelte. It's a preprocessor that lets you write Svelte components directly in your markdown files, AND use markdown within your Svelte files. It's like having the best of both worlds without the existential dread!
+
+## Let's get started
+
+Lorem ipsum dolor sit amet...
+
+## This has components
+
+<!-- Basic usage -->
+<Accordion title="Basic Accordion" animate="slide">
+  <p>Wubba lubba dub dub! Here's some content inside the accordion.</p>
+</Accordion>
+
+```html
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width" />
+		<link rel="icon" href="https://fav.farm/🔥" />
+		%sveltekit.head%
+	</head>
+	<body data-sveltekit-preload-data="hover">
+		<div style="display: contents">%sveltekit.body%</div>
+	</body>
+</html>
+```
