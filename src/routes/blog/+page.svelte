@@ -4,8 +4,8 @@
 </script>
 
 <section class="relative h-full">
-	<ul class="flex items-center">
-		{#each [data.posts[0]] as post}
+	<ul class="flex">
+		{#each data.posts as post}
 			<BlogCard {post} />
 		{/each}
 	</ul>

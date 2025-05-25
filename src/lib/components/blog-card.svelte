@@ -15,7 +15,7 @@
 		</header>
 
 		<div class="space-y-4 p-4">
-			<h3 class="h3 text-non-photo-blue font-mono" data-toc-ignore>{post.title}</h3>
+			<h3 class="h3 text-non-photo-blue text-xl" data-toc-ignore>{post.title}</h3>
 			<article>
 				<p>
 					{post.description}
